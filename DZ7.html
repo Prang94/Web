@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>
+	New user registration 
+	</title>
+	<link rel="stylesheet" href="style.css"></form>
+</head>
+<body>
+
+<form action="#" method="get">
+
+	<h1> Регистрация нового пользователя </h1>
+
+<div class="formss">
+	 <p class = "forms"> 
+	 Введите логин:
+	  </p>
+	<input class="reg" type="text" tabindex="0" name="userName" autocomplete="off" placeholder="Enter your login">
+
+	 <p class = "forms"> 
+	 Введите пароль:
+	  </p>
+
+	 <input class="reg" type="password" tabindex="1" name="userPass" autocomplete="off" placeholder="Enter your password">
+
+	  <p class = "forms"> 
+
+	 Укажите ваш пол: 
+	  </p>
+
+	 <p>
+	 	<input type="radio" tabindex="2" name="gender" id="man">
+	 <label for="man"> Мужской </label> </p>
+	<p>
+		<input type="radio" tabindex="3" name="gender"	id="woman">
+	 <label for="woman"> Женский </label>
+	</p>
+
+	<p class="forms">
+		Укажите ваш возраст, лет:
+	</p>
+
+	<p>
+	<input class="age" type="number" tabindex="4" step="1" min="1" max="100" value="18" id="age" name="age"/>
+	</p>
+	
+	<p class="forms">
+		Введите номер мобильного телефона: 
+	</p>
+	<p>
+		<label for="phone">
+ 	 	<small> Формат +7**********:  </small>
+		</label>
+	</p>
+	
+
+	<input class="phone" type="tel" tabindex="5" id="phone" name="phone" pattern="[+]{1}[7]{1}[0-9]{10}" required />
+	 
+
+	 <p class="forms">
+	 	Выберите страну проживания: 
+	 </p>
+
+	 <select class="sel" tabindex="6" name="country">
+	 	<option value="" tabindex="7">--Please choose an option--</option>
+	 	<option value="rus" tabindex="8"> Russia </option>
+	 	<option value="ua" tabindex="9"> Ukraine </option>
+	 	<option value="bel" tabindex="10"> Belorussia </option>
+	 	<option value="eng" tabindex="11"> England </option>
+	 	<option value="fra" tabindex="12"> France </option>
+	 	<option value="esp" tabindex="13"> Spain </option>
+	 	<option value="ger" tabindex="14"> Germany </option>
+	 	<option value="ita" tabindex="15"> Italy </option>
+	 	<option value="chn" tabindex="16"> China </option>
+	 	<option value="another" tabindex="17"> Another country </option>
+	 	
+	 </select>
+
+	 <p class="forms">
+	 	Выберите любимых писателей: 
+	 </p>
+<p>
+	 <input checked type="checkbox" tabindex="18" name="writer" id="fm">
+	 <label for="fm"> Ф. Достоевский </label>
+
+</p>
+
+<p>
+	<input type="checkbox" tabindex="19" name="writer" id="cd">
+	<label for="cd"> Ч. Диккенс </label>
+</p>
+
+<p>
+	<input type="checkbox" tabindex="20" name="writer" id="er">
+	<label for="er"> Э.М. Ремарк </label>
+</p>
+
+<p>
+	<input type="checkbox" tabindex="21" name="writer" id="ds">
+	<label for="ds"> Д.Д. Сэлинджер </label>
+</p>
+
+<p>
+	<input type="checkbox" tabindex="22" name="writer" id="lt">
+	<label for="lt"> Л.Н. Толстой</label>
+</p>
+
+<p>
+	<input type="checkbox" tabindex="23" name="writer" id="eh">
+	<label for="eh"> Э. Хэммингуэй </label>
+</p>
+
+<p>
+	<input type="checkbox" tabindex="24" name="writer" id="ff">
+	<label for="ff"> Ф.С. Фицджеральд </label>
+</p>
+
+<p>
+	<input type="checkbox" tabindex="25" name="writer" id="ano">
+	<label for="ano"> Нет в списке </label>
+</p>
+
+<p>
+	Расскажите о себе:
+</p>
+
+<p>
+	<textarea class="tarea" tabindex="26" name="aboutuser" id="user" placeholder="Несколько предложений, чтобы мы узнали о вас больше..." rows="7" cols="40"></textarea>
+</p>
+
+<p>
+	<button class="but" type="submit" tabindex="27"> Зарегистрироваться </button>
+</p>
+
+<p>
+	<button class="but" type="reset" tabindex="28"> Сбросить все </button>
+</p>
+	  </div> <br>
+
+<footer>
+<p>
+<a href = "index.html"> Назад </a>
+</p>
+</footer>
+
+</body>
+
+</form>
+
+</html>
